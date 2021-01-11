@@ -1,0 +1,105 @@
+{% extends 'navbar.html' %}
+{% load static %}
+{% block content %}
+
+<!--Contact Form-->
+
+<section class="iq-our-info white-bg overview-block-ptb">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="iq-info-box text-center iq-pt-50">
+                    <div class="info-icon green-bg"><i class="ion-ios-location-outline" aria-hidden="true"></i></div>
+                    <h4 class="iq-tw-6 iq-mt-25 iq-mb-15">Address</h4>
+                    <span class="lead iq-tw-6">1234 North Avenue Luke Lane, South Bend, IN 360001</span>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="iq-info-box text-center iq-pt-50">
+                    <div class="info-icon green-bg"><i class="ion-ios-telephone-outline" aria-hidden="true"></i></div>
+                    <h4 class="iq-tw-6 iq-mt-25 iq-mb-15">Phone</h4>
+                    <span class="lead iq-tw-6">+0123 456 789</span>
+                    <p>Mon-Fri 8:00am - 8:00pm</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="iq-info-box text-center iq-pt-50">
+                    <div class="info-icon green-bg"><i class="ion-ios-email-outline" aria-hidden="true"></i></div>
+                    <h4 class="iq-tw-6 iq-mt-25 iq-mb-15">Mail</h4>
+                    <span class="lead iq-tw-6"><a href="https://iqonic.design/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ddaea8adadb2afa99dbcadadb4b3b2f3beb2b0">[email&#160;protected]</a></span>
+                    <p>24 X 7 online support</p>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <ul class="info-share">
+                    <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-google"></i></a></li>
+                    <li><a href="javascript:void(0)"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Address END -->
+
+
+<!-- MAP Info -->
+
+<div class="iq-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.840108181602!2d144.95373631539215!3d-37.8172139797516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2sin!4v1497005461921" style="border:0" allowfullscreen></iframe>
+</div>
+
+<!-- MAP Info END -->
+
+
+<!-- Get in Touch -->
+
+<section id="contact-us" class="iq-our-touch">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="iq-get-in iq-pall-40 white-bg">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="heading-title iq-mb-60">
+                                <h2 class="title iq-tw-6">Get in Touch</h2>
+                                <div class="divider"></div>
+                                <p>Do you have a question for us? we'd love to here from you and we would be happy to answer your questions. Reach out to us and we'll respond as soon as we can.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="formmessage">Success/Error Message Goes Here</div>
+                        <form class="form-horizontal" id="contactform" method="post" action="https://iqonic.design/themes/appino/php/contact-form.php">
+                            <div class="contact-form">
+                                <div class="col-sm-6">
+                                    <div class="section-field">
+                                        <input id="name" type="text" placeholder="Name*" name="name">
+                                    </div>
+                                    <div class="section-field">
+                                        <input type="email" placeholder="Email*" name="email">
+                                    </div>
+                                    <div class="section-field">
+                                        <input type="text" placeholder="Phone*" name="phone">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="section-field textarea">
+                                        <textarea class="input-message" placeholder="Comment*" rows="7" name="message"></textarea>
+                                    </div>
+                                    <input type="hidden" name="action" value="sendEmail" />
+                                    <button id="submit" name="submit" type="submit" value="Send" class="button pull-right iq-mt-40">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="ajaxloader" style="display:none"><img class="center-block mt-30 mb-30" src="images/ajax-loader.gif" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+(% endblock %)
