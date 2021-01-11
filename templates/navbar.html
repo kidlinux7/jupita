@@ -87,9 +87,10 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right" id="top-menu">
                                 <li class="active"><a href="{% url 'pages:home' %}">Home</a></li>
-                                <li><a href="#about-us">Products</a></li>
-                                <li><a href="#features">Services</a></li>
+                                <li><a href="{% url 'pages:home' %}#products">Products</a></li>
+                                <li><a href="{% url 'pages:home' %}#services">Services</a></li>
                                 <li><a href="{% url 'pages:blog' %}">Blog<span class="badge badge-danger"> 1</span></a></li>
+                                <li><a href="#">Career</a></li>
                                 <li><a href="#contact-us">Contact Us</a></li>
                             </ul>
                         </div>
