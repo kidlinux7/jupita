@@ -4,8 +4,9 @@ from .models import *
 
 def home(request):
     product = Products.objects.all()
+    team = Team.objects.all()
     news = Blog.objects.all()
-    context = {'product':product,'news':news}
+    context = {'product':product,'news':news,'team':team}
     return render(request,"index.html",context)
 
 def products_details(request, **kwargs):

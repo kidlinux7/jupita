@@ -25,3 +25,12 @@ class Blog(models.Model):
 
     def __str__(self):
         return self.heading
+
+class Team(models.Model):
+    position = models.CharField(max_length=200,null=True)
+    name = models.CharField(max_length=200,null=True)
+    details = models.CharField(max_length=200,null=True)
+    individual_picture = models.ImageField(upload_to='team/')
+
+    def __str__(self):
+        return self.name
