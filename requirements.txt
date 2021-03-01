@@ -1,15 +1,26 @@
+<<<<<<< HEAD
 alembic==1.1.0.dev0
 appdirs==1.4.3
 apt-clone==0.2.1
 apturl==0.5.2
+=======
+amqp==5.0.5
+# apt-clone==0.2.1
+#apturl==0.5.2
+>>>>>>> 8c38862ba7dd71f13e3edbc027c8efd9aacc0d60
 asgiref==3.3.1
 astroid==2.4.2
 Babel==2.6.0
 bcrypt==3.1.7
 beautifulsoup4==4.8.2
+<<<<<<< HEAD
 blinker==1.4
 boto3==1.14.51
 botocore==1.17.51
+=======
+billiard==3.6.3.0
+#blinker==1.4
+>>>>>>> 8c38862ba7dd71f13e3edbc027c8efd9aacc0d60
 Brlapi==0.7.0
 CacheControl==0.12.6
 certifi==2019.11.28
