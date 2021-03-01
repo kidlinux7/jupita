@@ -102,7 +102,7 @@ odfpy==1.4.1
 
 openpyxl==3.0.5
 packaging==20.3
-PAM==0.4.2
+
 paramiko==2.6.0
 passlib==1.7.2
 peewee==2.8.8
