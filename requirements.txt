@@ -22,7 +22,7 @@ contextlib2==0.6.0
 cryptography==2.8
 
 dbus-python==1.2.16
-defer==1.0.6
+
 defusedxml==0.6.0
 diff-match-patch==20200713
 distlib==0.3.0
