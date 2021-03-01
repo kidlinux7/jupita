@@ -134,7 +134,6 @@ sshtunnel==0.1.4
 swapper==1.1.2.post1
 systemd-python==234
 tablib==3.0.0
-tinycss2==1.0.2
 ubuntu-advantage-tools==20.3
 ubuntu-drivers-common==0.0.0
 ufw==0.36
